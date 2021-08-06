@@ -1,6 +1,3 @@
-#ifndef INCLUDE_FRAME_BUFFER_H
-#define INCLUDE_FRAME_BUFFER_H
-
 #include "io.h"
 
 /* The I/O ports */
@@ -62,4 +59,3 @@ void fb_write(unsigned int pos, char *buff, unsigned int len)
     fb_move_cursor(pos+len-1);   
 }
 
-#endif
