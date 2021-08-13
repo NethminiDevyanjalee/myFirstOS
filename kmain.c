@@ -1,8 +1,11 @@
 #include "framebuffer.h"
 #include "serial.h"
+#include "memory_segments.h"
 
 int kmain()
 {
+	segments_install_gdt();
+	
 	char msg[] = "Welcome to myFirstOS";
 	unsigned int len = sizeof(msg) / sizeof(msg[0]);
 	
