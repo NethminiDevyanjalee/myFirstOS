@@ -1,6 +1,7 @@
 #include "framebuffer.h"
 #include "serial.h"
 #include "memory_segments.h"
+#include "interrupts.h"
 
 int kmain()
 {
@@ -13,7 +14,9 @@ int kmain()
     	fb_write(0, msg, len);
     
     	//serial writing
-    	serial_write(0x3F8, msg, len);
+    	serial_write(SERIAL_COM1_BASE, msg, len);
+    	
+    	interrupts_install_idt();
     	
 	return 0;
 } 
