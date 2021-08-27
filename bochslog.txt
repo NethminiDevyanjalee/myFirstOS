@@ -34,45 +34,45 @@
 00000000000i[      ]   Sound support: SB16 ES1370
 00000000000i[      ]   USB support: UHCI OHCI EHCI xHCI
 00000000000i[      ]   VGA extension support: vbe cirrus voodoo
-00000000000i[MEM0  ] allocated memory at 0x7f7a31ddd010. after alignment, vector=0x7f7a31dde000
+00000000000i[MEM0  ] allocated memory at 0x7fcab5ddd010. after alignment, vector=0x7fcab5dde000
 00000000000i[MEM0  ] 32.00MB
 00000000000i[MEM0  ] mem block size = 0x00020000, blocks=256
 00000000000i[MEM0  ] rom at 0xfffe0000/131072 ('/usr/share/bochs/BIOS-bochs-latest')
-00000000000i[      ] lt_dlhandle is 0x55a254d6b340
+00000000000i[      ] lt_dlhandle is 0x55f0a4edecd0
 00000000000i[PLUGIN] loaded plugin libbx_hdimage.so
-00000000000i[      ] lt_dlhandle is 0x55a254dd8920
+00000000000i[      ] lt_dlhandle is 0x55f0a4ce1c50
 00000000000i[PLUGIN] loaded plugin libbx_soundalsa.so
 00000000000i[WAVOUT] ALSA: opened default PCM output device
 00000000000i[WAVOUT] changed sample rate to 44101
-00000000000i[      ] lt_dlhandle is 0x55a2553fe950
+00000000000i[      ] lt_dlhandle is 0x55f0a54ffb40
 00000000000i[PLUGIN] loaded plugin libbx_pci.so
-00000000000i[      ] lt_dlhandle is 0x55a254c4f800
+00000000000i[      ] lt_dlhandle is 0x55f0a4d54800
 00000000000i[PLUGIN] loaded plugin libbx_pci2isa.so
-00000000000i[      ] lt_dlhandle is 0x55a254c4f7a0
+00000000000i[      ] lt_dlhandle is 0x55f0a4d547a0
 00000000000i[PLUGIN] loaded plugin libbx_usb_uhci.so
-00000000000i[      ] lt_dlhandle is 0x55a254c80620
+00000000000i[      ] lt_dlhandle is 0x55f0a4d85630
 00000000000i[PLUGIN] loaded plugin libbx_acpi.so
-00000000000i[      ] lt_dlhandle is 0x55a254c50660
+00000000000i[      ] lt_dlhandle is 0x55f0a4d55660
 00000000000i[PLUGIN] loaded plugin libbx_hpet.so
-00000000000i[      ] lt_dlhandle is 0x55a254e9cab0
+00000000000i[      ] lt_dlhandle is 0x55f0a4fa1b10
 00000000000i[PLUGIN] loaded plugin libbx_cmos.so
-00000000000i[      ] lt_dlhandle is 0x55a25540afe0
+00000000000i[      ] lt_dlhandle is 0x55f0a5510400
 00000000000i[PLUGIN] loaded plugin libbx_dma.so
-00000000000i[      ] lt_dlhandle is 0x55a25540ba30
+00000000000i[      ] lt_dlhandle is 0x55f0a5510c00
 00000000000i[PLUGIN] loaded plugin libbx_pic.so
-00000000000i[      ] lt_dlhandle is 0x55a25540c1f0
+00000000000i[      ] lt_dlhandle is 0x55f0a55113c0
 00000000000i[PLUGIN] loaded plugin libbx_pit.so
-00000000000i[      ] lt_dlhandle is 0x55a25540ca30
+00000000000i[      ] lt_dlhandle is 0x55f0a5511c00
 00000000000i[PLUGIN] loaded plugin libbx_vga.so
-00000000000i[      ] lt_dlhandle is 0x55a25542dfe0
+00000000000i[      ] lt_dlhandle is 0x55f0a55331b0
 00000000000i[PLUGIN] loaded plugin libbx_floppy.so
-00000000000i[      ] lt_dlhandle is 0x55a25542e800
+00000000000i[      ] lt_dlhandle is 0x55f0a55339d0
 00000000000i[PLUGIN] loaded plugin libbx_ioapic.so
-00000000000i[      ] lt_dlhandle is 0x55a25542f000
+00000000000i[      ] lt_dlhandle is 0x55f0a55341d0
 00000000000i[PLUGIN] loaded plugin libbx_keyboard.so
-00000000000i[      ] lt_dlhandle is 0x55a25542f7d0
+00000000000i[      ] lt_dlhandle is 0x55f0a55349a0
 00000000000i[PLUGIN] loaded plugin libbx_harddrv.so
-00000000000i[      ] lt_dlhandle is 0x55a255431a30
+00000000000i[      ] lt_dlhandle is 0x55f0a5536c00
 00000000000i[PLUGIN] loaded plugin libbx_pci_ide.so
 00000000000i[PLUGIN] init_dev of 'pci' plugin device by virtual method
 00000000000i[DEV   ] i440FX PMC present at device 0, function 0
@@ -80,7 +80,7 @@
 00000000000i[DEV   ] PIIX3 PCI-to-ISA bridge present at device 1, function 0
 00000000000i[PLUGIN] init_dev of 'cmos' plugin device by virtual method
 00000000000i[CMOS  ] Using local time for initial clock
-00000000000i[CMOS  ] Setting initial clock to: Fri Aug 20 18:19:00 2021 (time0=1629463740)
+00000000000i[CMOS  ] Setting initial clock to: Fri Aug 27 18:21:14 2021 (time0=1630068674)
 00000000000i[PLUGIN] init_dev of 'dma' plugin device by virtual method
 00000000000i[DMA   ] channel 4 used by cascade
 00000000000i[PLUGIN] init_dev of 'pic' plugin device by virtual method
@@ -113,7 +113,7 @@
 00000000000i[CD1   ] load cdrom with path='os.iso'
 00000000000i[CD1   ] Opening image file as a cd.
 00000000000i[HD    ] Media present in CD-ROM drive
-00000000000i[HD    ] Capacity is 240 sectors (0.47 MB)
+00000000000i[HD    ] Capacity is 243 sectors (0.47 MB)
 00000000000i[PLUGIN] init_dev of 'pci_ide' plugin device by virtual method
 00000000000i[DEV   ] PIIX3 PCI IDE controller present at device 1, function 1
 00000000000i[PLUGIN] init_dev of 'unmapped' plugin device by virtual method
@@ -267,29 +267,29 @@
 00001914559i[BXVGA ] VBE known Display Interface b0c0
 00001914591i[BXVGA ] VBE known Display Interface b0c5
 00001917234i[VBIOS ] VBE Bios $Id: vbe.c 228 2020-01-02 23:09:02Z vruppert $
-00005704014i[BIOS  ] IDE time out
-00471941366i[BIOS  ] Booting from 07c0:0000
-00472041865i[BIOS  ] int13_harddisk: function 41, unmapped device for ELDL=80
-00472045542i[BIOS  ] int13_harddisk: function 08, unmapped device for ELDL=80
-00472049205i[BIOS  ] *** int 15h function AX=00c0, BX=0000 not yet supported!
-00474021595i[SER   ] com1: FIFO enabled
-01604825000p[SDL2  ] >>PANIC<< User requested shutdown.
-01604825000i[CPU0  ] CPU is in protected mode (active)
-01604825000i[CPU0  ] CS.mode = 32 bit
-01604825000i[CPU0  ] SS.mode = 32 bit
-01604825000i[CPU0  ] EFER   = 0x00000000
-01604825000i[CPU0  ] | EAX=00000000  EBX=0002cd80  ECX=00000021  EDX=001000a1
-01604825000i[CPU0  ] | ESP=00104808  EBP=00067ee0  ESI=0002cef0  EDI=0002cef1
-01604825000i[CPU0  ] | IOPL=0 id vip vif ac vm rf nt of df IF tf sf zf af pf cf
-01604825000i[CPU0  ] | SEG sltr(index|ti|rpl)     base    limit G D
-01604825000i[CPU0  ] |  CS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
-01604825000i[CPU0  ] |  DS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-01604825000i[CPU0  ] |  SS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-01604825000i[CPU0  ] |  ES:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-01604825000i[CPU0  ] |  FS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-01604825000i[CPU0  ] |  GS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-01604825000i[CPU0  ] | EIP=00100016 (00100016)
-01604825000i[CPU0  ] | CR0=0x60000011 CR2=0x00000000
-01604825000i[CPU0  ] | CR3=0x00000000 CR4=0x00000000
-01604825000i[CMOS  ] Last time is 1629465344 (Fri Aug 20 18:45:44 2021)
-01604825000i[SIM   ] quit_sim called with exit code 1
+00005703968i[BIOS  ] IDE time out
+00489774253i[BIOS  ] Booting from 07c0:0000
+00489874752i[BIOS  ] int13_harddisk: function 41, unmapped device for ELDL=80
+00489878429i[BIOS  ] int13_harddisk: function 08, unmapped device for ELDL=80
+00489882092i[BIOS  ] *** int 15h function AX=00c0, BX=0000 not yet supported!
+00492097873i[SER   ] com1: FIFO enabled
+00948595000p[SDL2  ] >>PANIC<< User requested shutdown.
+00948595000i[CPU0  ] CPU is in protected mode (active)
+00948595000i[CPU0  ] CS.mode = 32 bit
+00948595000i[CPU0  ] SS.mode = 32 bit
+00948595000i[CPU0  ] EFER   = 0x00000000
+00948595000i[CPU0  ] | EAX=deadbeef  EBX=00102008  ECX=00000021  EDX=00000001
+00948595000i[CPU0  ] | ESP=00104780  EBP=001047bc  ESI=0002cf08  EDI=0002cf09
+00948595000i[CPU0  ] | IOPL=0 id vip vif ac vm rf nt of df IF tf sf ZF af PF cf
+00948595000i[CPU0  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00948595000i[CPU0  ] |  CS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
+00948595000i[CPU0  ] |  DS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00948595000i[CPU0  ] |  SS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00948595000i[CPU0  ] |  ES:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00948595000i[CPU0  ] |  FS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00948595000i[CPU0  ] |  GS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00948595000i[CPU0  ] | EIP=00106000 (00106000)
+00948595000i[CPU0  ] | CR0=0x60000011 CR2=0x00000000
+00948595000i[CPU0  ] | CR3=0x00000000 CR4=0x00000000
+00948595000i[CMOS  ] Last time is 1630069622 (Fri Aug 27 18:37:02 2021)
+00948595000i[SIM   ] quit_sim called with exit code 1
