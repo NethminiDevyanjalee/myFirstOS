@@ -3,6 +3,7 @@
 #include "memory_segments.h"
 #include "interrupts.h"
 #include "multiboot.h"
+#include "paging.h"
 
 int run_program(unsigned int ebx){
 	multiboot_info_t *mbinfo = (multiboot_info_t *) ebx;
@@ -24,7 +25,8 @@ int run_program(unsigned int ebx){
 	return 0;
 }
 
-int kmain(unsigned int ebx)
+//int kmain(unsigned int ebx)
+int kmain()
 {
 	segments_install_gdt();
 	
@@ -39,8 +41,10 @@ int kmain(unsigned int ebx)
     	
     	interrupts_install_idt();
     	
+    	init_paging();
+    	
     	//test module
-    	run_program(ebx);
+    	//run_program(ebx);
     	
 	return 0;
 } 
